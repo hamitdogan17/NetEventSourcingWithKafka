@@ -1,6 +1,6 @@
 using CQRS.Core.Domain;
 
-namespace CQRS.Core.Exceptions
+namespace CQRS.Core.Handlers
 {
     public interface IEventSourcingHandler<T>
     {
